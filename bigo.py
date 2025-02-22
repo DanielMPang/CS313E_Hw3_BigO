@@ -2,7 +2,7 @@
 Student information for this assignment:
 
 Replace <FULL NAME> with your name.
-On my/our honor, <Daniel Pang>, this 
+On my/our honor, <Daniel Pang> and <FULL NAME>, this 
 programming assignment is my own work and I have not provided this code to 
 any other student.
 
@@ -13,9 +13,9 @@ code to someone else), the case shall be submitted to the Office of the Dean of
 Students. Academic penalties up to and including an F in the course are likely.
 
 UT EID 1: Dmp3577
+UT EID 2:
 """
 
-# TODO: implement this function. You may delete this comment when you are done.
 def length_of_longest_substring_n3(s):
     """
     Finds the length of the longest substring without repeating characters
@@ -40,7 +40,6 @@ def length_of_longest_substring_n3(s):
                     biggest = max(len(substring), biggest)
     return biggest
 
-# TODO: implement this function. You may delete this comment when you are done.
 def length_of_longest_substring_n2(s):
     """
     Finds the length of the longest substring without repeating characters
@@ -66,8 +65,6 @@ def length_of_longest_substring_n2(s):
                 biggest = max(biggest, j-i+1)
     return biggest
 
-
-# TODO: implement this function. You may delete this comment when you are done.
 def length_of_longest_substring_n(s):
     """
     Finds the length of the longest substring without repeating characters
